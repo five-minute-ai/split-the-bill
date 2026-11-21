@@ -1,0 +1,11 @@
+{
+  // Worker name: your address will be https://split-the-bill.<your-account>.workers.dev
+  "name": "split-the-bill",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-01",
+  "durable_objects": {
+    "bindings": [{ "name": "BILL", "class_name": "Bill" }]
+  },
+  // SQLite-backed Durable Object: this is what makes it free on the Workers Free plan.
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Bill"] }]
+}

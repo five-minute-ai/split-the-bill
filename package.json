@@ -1,0 +1,18 @@
+{
+  "name": "split-the-bill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Split the restaurant bill: everyone ticks what they had and sees what they owe.",
+  "type": "module",
+  "scripts": {
+    "check": "node check.mjs",
+    "dev": "wrangler dev",
+    "deploy": "node check.mjs && wrangler deploy",
+    "qr": "qrcode-terminal"
+  },
+  "devDependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wrangler": "^4.166.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "The Corner Bistro",
+  "date": "2026-11-21",
+  "people": 6,
+  "currency": "USD",
+  "language": "en",
+  "payer": "Alex",
+  "payments": [
+    { "name": "Venmo, PayPal or Revolut", "link": "https://example.com/replace-me" },
+    { "name": "Zelle (phone or email)", "text": "000 000 0000" }
+  ],
+  "items": [
+    { "name": "Sparkling water", "quantity": 2, "price": 4.5 },
+    { "name": "Glass of red wine", "quantity": 3, "price": 9 },
+    { "name": "Draft beer", "quantity": 2, "price": 7 },
+    { "name": "Cheese board", "quantity": 1, "price": 18 },
+    { "name": "House burger", "quantity": 2, "price": 17.5 },
+    { "name": "Caesar salad", "quantity": 1, "price": 14 },
+    { "name": "Steak tartare", "quantity": 1, "price": 22 },
+    { "name": "Fries", "quantity": 2, "price": 5 },
+    { "name": "Coffee", "quantity": 4, "price": 3.5 },
+    { "name": "Tiramisu", "quantity": 2, "price": 8 }
+  ],
+  "receipt_total": 179
+}
