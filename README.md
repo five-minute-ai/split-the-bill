@@ -91,6 +91,29 @@ The app you get changes a little each time. This repo is a clean, tested version
 
 ---
 
+## Bonus: control Claude Code from your phone
+
+That's what I did at the restaurant. Claude Code was running on my computer, and I talked to it from my phone. I even sent the photo of the receipt from the table.
+
+You need:
+
+- a Claude subscription (Pro or higher). It doesn't work with an API key;
+- the Claude app on your phone (iPhone or Android), signed in to the same account;
+- your computer on, with the terminal open.
+
+1. On the computer, open a terminal in your folder and type `claude`.
+2. In Claude Code, type `/remote-control`. A QR code shows up.
+3. Scan it with your phone. You can also open the Claude app, tap **Code**, then your session: it has a computer icon with a green dot.
+4. You're set. You type on your phone, you can send a photo, and everything runs on your computer.
+
+Good to know:
+
+- If you close the terminal, the session stops. If the computer goes to sleep, it comes back by itself when it wakes up.
+- Your computer opens no door to the outside: everything goes through Anthropic's servers, over an encrypted connection.
+- Official docs: [code.claude.com/docs/en/remote-control](https://code.claude.com/docs/en/remote-control)
+
+---
+
 ## How it works
 
 - `bill.json`: your receipt. It's the only file to change.
